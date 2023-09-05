@@ -97,7 +97,7 @@ ablineclip(v=7, lty=0, col="royalblue2", lwd=2) # blank
 
 # plot types of R Base plot
 
-? plot
+?plot
 
 # by using "type" we can specify which kind of plot we want
 
@@ -124,7 +124,7 @@ par(new=T) # allows 2 in 1 plot
 
 plot(cars$dist, type="s", bty="n", ann=F, axes=F, col="darkblue")
 axis(side=4, col = "darkblue") # y axis for plot 2
-text(37, 18, "Stopping dustance in ft", cex=0.85, col="darkblue") # explanatory
+text(37, 18, "Stopping distance in ft", cex=0.85, col="darkblue") # explanatory
 title(main="Speed and Stopping\n Distances of Cars") # main title
 
 #??? Graphical parameters
