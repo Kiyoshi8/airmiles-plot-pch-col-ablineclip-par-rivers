@@ -24,7 +24,7 @@ detach(mtcars) # remove it from environment
 
 sum(wt) # error message since mtcars it not attached any more 
 
-mtcars[2,6]
+mtcars[3,7]
 
 mtcars[c(2,5,8),6]
 
